@@ -16,6 +16,12 @@ public class DemoController {
         myCoach = theCoach;
     }
 
+    // setter injection, name of method can be anything
+//    @Autowired
+//    public void setCoach(Coach coach) {
+//        this.myCoach = coach;
+//    }
+
     @GetMapping("/dailyworkout")
     public String getDailyWorkout() {
         return myCoach.getDailyWorkout();
