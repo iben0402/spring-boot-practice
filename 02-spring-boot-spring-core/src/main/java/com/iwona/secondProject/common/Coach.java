@@ -1,4 +1,4 @@
-package com.iwona.secondProject;
+package com.iwona.secondProject.common;
 
 public interface Coach {
     String getDailyWorkout();
